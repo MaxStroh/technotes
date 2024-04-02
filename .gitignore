@@ -1,3 +1,7 @@
 /.idea/
 /.vscode/
 /site/
+
+# excluded documentation sites
+/docs/daily-notes
+/docs/people

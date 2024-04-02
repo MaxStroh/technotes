@@ -1,4 +1,4 @@
-site_name: Technotes
+site_name: MaxStroh Technotes
 site_url: https://maxstroh.github.io/technotes/
 site_description: Tech notes made during work to different topics
 site_author: Max Strohbücker
@@ -21,6 +21,10 @@ theme:
     - navigation.tracking
   icon:
     edit: material/pencil
+
+# exclude_docs: |
+#   /daily-notes/
+#   /people/
 
 markdown_extensions:
   - attr_list
