@@ -6,4 +6,4 @@
 
 ## Streams
 - arbeitet mit Streams (ähnlich wie Rabbit Queues?)
-- bietet keine JDBC-Schnittstelle -> Anwendungen die eine "klassische DB" erwarten, sind mit Kafka nicht trivial kompatibel (Details s. [Apache Druid](/apache-druid))
+- bietet keine JDBC-Schnittstelle -> Anwendungen die eine "klassische DB" erwarten, sind mit Kafka nicht trivial kompatibel (Details s. [Apache Druid](apache-druid.md))
