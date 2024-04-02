@@ -1,6 +1,6 @@
 # MkDocs Examples
 ## MkDocs Doku
-Die Beispiele basieren auf der [Doku von MkDocs](https://squidfunk.github.io/mkdocs-material/reference/). Für weitere Beispiele siehe Doku.
+Die Beispiele basieren auf der [Doku von MkDocs Material](https://squidfunk.github.io/mkdocs-material/reference/). Für weitere Beispiele siehe Doku.
 
 ## Tabs
 ### Code Tabs
