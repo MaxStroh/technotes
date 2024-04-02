@@ -1,3 +1,11 @@
+site_name: Technotes
+site_url: https://maxstroh.github.io/technotes/
+site_description: Tech notes made during work to different topics
+site_author: Max Strohbücker
+
+repo_url: https://github.com/MaxStroh/technotes
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   palette:
@@ -13,9 +21,7 @@ theme:
     - navigation.tracking
   icon:
     edit: material/pencil
-site_name: Technotes
-repo_url: https://github.com/MaxStroh/technotes
-edit_uri: edit/main/docs/
+
 markdown_extensions:
   - attr_list
   - admonition
@@ -41,3 +47,7 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
+
+plugins:
+  - search
+  - autorefs
