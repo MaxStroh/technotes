@@ -11,8 +11,11 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.tracking
+  icon:
+    edit: material/pencil
 site_name: Technotes
 repo_url: https://github.com/MaxStroh/technotes
+edit_uri: edit/main/docs/
 markdown_extensions:
   - attr_list
   - admonition
