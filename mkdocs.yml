@@ -3,7 +3,7 @@ theme:
   palette:
     scheme: slate
     primary: orange
-    accent: cyan
+    accent: dark orange
   features:
     - content.code.copy
     - content.tabs.link
