@@ -1,0 +1,37 @@
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: orange
+    accent: cyan
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+site_name: Technotes
+repo_url: https://github.com/MaxStroh/technotes
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
