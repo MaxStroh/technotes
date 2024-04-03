@@ -5,6 +5,7 @@ site_author: Max Strohbücker
 
 repo_url: https://github.com/MaxStroh/technotes
 edit_uri: edit/main/docs/
+view_uri: view/main/docs/
 
 theme:
   name: material
@@ -14,13 +15,12 @@ theme:
     accent: deep orange
   features:
     - content.action.edit
+    - content.action.view
     - content.code.copy
     - content.tabs.link
     - navigation.path
     - navigation.top
     - navigation.tracking
-  icon:
-    edit: material/pencil
 
 # exclude_docs: |
 #   /daily-notes/
